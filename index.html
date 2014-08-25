@@ -10,12 +10,26 @@
 	<div class="container">
 		<div id="url">
 			<form method="post">
-				<input type="text" placeholder="Test your own site... type the url and hit enter" />
-				<input type="submit" value="submit">
-				<div id="options">
-					<label for="normal"><input id="normal" type="radio" name="option" value="1" checked>Width only</label><br />
-					<label for="accurate"><input id="accurate" type="radio" name="option" value="2">Device sizes</label><br />
-					<label for="scrollbar"><input id="scrollbar" type="checkbox" name="scrollbar" value="0" unchecked>Visible Scrollbars</label>
+				<div class="url">
+					<input type="text" placeholder="Test your own site... type the url and hit enter" />
+					<input type="submit" value="submit">
+				</div>
+				<div class="devices">
+					<select name="cars">
+						<optgroup label="Apple">
+							<option value="iphone4">iPhone 4</option>
+							<option value="iphone5">iPhone 5</option>
+							<option value="ipadmini">iPad Mini</option>
+							<option value="ipadmini">iPad 2</option>
+							<option value="ipadmini">iPad 3</option>
+						</optgroup>
+						<optgroup label="HTC">
+							<option value="htcone">HTC One</option>
+						</optgroup>
+						<optgroup label="MISC">
+							<option value="nexus">Nexus</option>
+						</optgroup>
+					</select>
 				</div>
 			</form>
 		</div>
